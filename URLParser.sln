@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "URLParser.BLL.Contract", "URLParser.BLL.Contract\URLParser.BLL.Contract.csproj", "{986CF735-34F1-46EE-87DE-04E1B5453476}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "URLParser.BLL.Implementation", "URLParser.BLL.Implementation\URLParser.BLL.Implementation.csproj", "{BB095779-D4CF-40C5-B2FD-588B9811845F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "URLParser.DAL.Contract", "URLParser.DAL.Contract\URLParser.DAL.Contract.csproj", "{9022189E-29F8-4242-9266-F35ABF6B8587}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "URLParser.DAL.Implementation", "URLParser.DAL.Implementation\URLParser.DAL.Implementation.csproj", "{B3EC6AFB-E275-4B02-85C4-481014FF56E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "URLParser.PL.Console", "URLParser.PL.Console\URLParser.PL.Console.csproj", "{889451EB-D1E8-4708-A912-464012BA483F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyResolver", "DependencyResolver\DependencyResolver.csproj", "{34856379-8267-4BB8-8D93-2747F74B44BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URLParser.BLL.Contract.Tests", "URLParser.BLL.Contract.Tests\URLParser.BLL.Contract.Tests.csproj", "{20455C2B-4D33-493A-AF82-1599F962C2C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URLParser.BLL.Implementation.Tests", "URLParser.BLL.Implementation.Tests\URLParser.BLL.Implementation.Tests.csproj", "{4BA78314-C1E9-4071-8838-76869C2AE328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URLParser.DAL.Contract.Tests", "URLParser.DAL.Contract.Tests\URLParser.DAL.Contract.Tests.csproj", "{960214D2-A2AC-441F-B0A6-CA32ABC194B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URLParser.DAL.Implementation.Tests", "URLParser.DAL.Implementation.Tests\URLParser.DAL.Implementation.Tests.csproj", "{CE8EF9F3-2A13-4271-B862-83B254FEE4C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{986CF735-34F1-46EE-87DE-04E1B5453476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{986CF735-34F1-46EE-87DE-04E1B5453476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{986CF735-34F1-46EE-87DE-04E1B5453476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{986CF735-34F1-46EE-87DE-04E1B5453476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB095779-D4CF-40C5-B2FD-588B9811845F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB095779-D4CF-40C5-B2FD-588B9811845F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB095779-D4CF-40C5-B2FD-588B9811845F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB095779-D4CF-40C5-B2FD-588B9811845F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9022189E-29F8-4242-9266-F35ABF6B8587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9022189E-29F8-4242-9266-F35ABF6B8587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9022189E-29F8-4242-9266-F35ABF6B8587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9022189E-29F8-4242-9266-F35ABF6B8587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3EC6AFB-E275-4B02-85C4-481014FF56E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3EC6AFB-E275-4B02-85C4-481014FF56E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3EC6AFB-E275-4B02-85C4-481014FF56E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3EC6AFB-E275-4B02-85C4-481014FF56E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{889451EB-D1E8-4708-A912-464012BA483F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889451EB-D1E8-4708-A912-464012BA483F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889451EB-D1E8-4708-A912-464012BA483F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889451EB-D1E8-4708-A912-464012BA483F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34856379-8267-4BB8-8D93-2747F74B44BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34856379-8267-4BB8-8D93-2747F74B44BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34856379-8267-4BB8-8D93-2747F74B44BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34856379-8267-4BB8-8D93-2747F74B44BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20455C2B-4D33-493A-AF82-1599F962C2C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20455C2B-4D33-493A-AF82-1599F962C2C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20455C2B-4D33-493A-AF82-1599F962C2C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20455C2B-4D33-493A-AF82-1599F962C2C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BA78314-C1E9-4071-8838-76869C2AE328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA78314-C1E9-4071-8838-76869C2AE328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA78314-C1E9-4071-8838-76869C2AE328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA78314-C1E9-4071-8838-76869C2AE328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{960214D2-A2AC-441F-B0A6-CA32ABC194B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{960214D2-A2AC-441F-B0A6-CA32ABC194B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{960214D2-A2AC-441F-B0A6-CA32ABC194B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{960214D2-A2AC-441F-B0A6-CA32ABC194B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8EF9F3-2A13-4271-B862-83B254FEE4C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8EF9F3-2A13-4271-B862-83B254FEE4C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8EF9F3-2A13-4271-B862-83B254FEE4C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8EF9F3-2A13-4271-B862-83B254FEE4C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE9B4B5B-1170-48B8-8727-FD54B6BB5E9E}
+	EndGlobalSection
+EndGlobal

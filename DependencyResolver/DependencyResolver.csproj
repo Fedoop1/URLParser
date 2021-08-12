@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFramework>net5.0</TargetFramework>
+	  <CodeAnalysisRuleSet>..\code-analysis.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.3.2">
+	  <PrivateAssets>all</PrivateAssets>
+	  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	</PackageReference>
+	<PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+	<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+	<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+	<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
+	<PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+	  <PrivateAssets>all</PrivateAssets>
+	  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	</PackageReference>
+  </ItemGroup>
+	<ItemGroup>
+		<AdditionalFiles Include="..\code-analysis.ruleset" Link="Properties\code-analisys.ruleset" />
+		<AdditionalFiles Include="..\stylecop.json" Link="Properties\stylecop.json" />
+	</ItemGroup>
+  <ItemGroup>
+	<ProjectReference Include="..\URLParser.BLL.Contract\URLParser.BLL.Contract.csproj" />
+	<ProjectReference Include="..\URLParser.BLL.Implementation\URLParser.BLL.Implementation.csproj" />
+	<ProjectReference Include="..\URLParser.DAL.Contract\URLParser.DAL.Contract.csproj" />
+	<ProjectReference Include="..\URLParser.DAL.Implementation\URLParser.DAL.Implementation.csproj" />
+  </ItemGroup>
+
+</Project>
